@@ -11,6 +11,7 @@ int interactive(info_t *info)
 }
 /**
  * is_delim - checks if character is a delimeter
+ * a delimeter is a character that identifies the beginning or end of a string
  * @c: the char to check
  * @delim: the delimeter string
  * Return: 1 if true, 0 if false
