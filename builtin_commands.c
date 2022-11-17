@@ -1,3 +1,4 @@
+
 #include "shell.h"
 
 /**
@@ -10,7 +11,6 @@
 int _myexit(info_t *info)
 {
 int exitcheck;
-{
 if (info->argv[1])
 {
 exitcheck = _erratoi(info->argv[1]);
@@ -88,7 +88,6 @@ int _myhelp(info_t *info)
 {
 char **arg_array;
 arg_array = info->argv;
-}
 _puts("help call works. Function not yet implemented \n");
 if (0)
 _puts(*arg_array);
